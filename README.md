@@ -41,5 +41,7 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
   4- you don't need to change any options just next>next>next>finish
   5- open the Oracle VM VirtualBox 
   ![1](https://user-images.githubusercontent.com/64277741/179366616-adc5c727-3d54-40de-b673-f5240ac48b65.PNG)
+  Figure (1): the VirtualBox interface 
+
 
   
