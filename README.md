@@ -56,7 +56,7 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
   
 ### 2- install Ubunto in virtualbox
 
-   1- download Ubuntu 16.04.7 LTS (Xenial Xerus)  [here](https://releases.ubuntu.com/16.04/)
+   1- download Ubuntu 20.04.4 LTS (Focal Fossa)  [here](https://releases.ubuntu.com/20.04.4/?_ga=2.177518757.1254341069.1657984651-340755649.1657984651)
    
    2- choose 64-bit PC (AMD64) desktop image and download 
    
@@ -74,29 +74,30 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
    
    9- open it and press start button 
    
-  10- press file icone then press add then choose the file of ubuntu-16.04.7 you downloaded befor , then press start 
+  10- press file icone then press add then choose the file of Ubuntu 20.04.4 you downloaded befor , then press start 
   
   11- then choose install Ubunto then continue>continue
   
   12- then choose the Area and continue
   
-  13- then Fill in the required your name and etc then press continue
+  13- then Fill in the required , your name and etc then press continue
+  ![4](https://user-images.githubusercontent.com/64277741/179374749-b6ee0723-3c7f-4018-a371-0535f4c770b7.PNG)
+      Figure (2): the Ubuntu loading 
+
   
   14- then the Ubuntu will open!
-  
- ![2](https://user-images.githubusercontent.com/64277741/179371667-b0c6f5f1-7ba7-45ec-b848-9d42226ff608.PNG)
- 
-   Figure (2): the Ubunto interface  
+  ![5](https://user-images.githubusercontent.com/64277741/179374785-bf410d92-4642-4840-8672-b52cf6bfc4ea.PNG)
+
+   Figure (3): the Ubunto interface  
    
   ### 3- install ROS1 in Ubunto
    1- open Ubuntu
    
    2- open terminal // command interface
    
-   
-   ![3](https://user-images.githubusercontent.com/64277741/179372232-127eddb9-7918-45e4-bd59-868167370f6b.PNG)
-   
-    Figure (3): the terminal interface 
+   ![6](https://user-images.githubusercontent.com/64277741/179374796-6e1bde79-87a5-4266-b8ed-51f063b7c747.PNG)
+
+    Figure (4): the terminal interface 
     
   3- Enter the command to configure the machin to install the ROS on it ,copy and paste then press Enter , enter the password 
   
