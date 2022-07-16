@@ -26,7 +26,7 @@ You must have a Windows 10 64-bit device
 Also, it is recommended that you have at least 20GB of free space on your C:\ drive for installation and development.
 
 
- * You need virtualbox to use Ubuntu and  develop ROS projects for Windows. You can download virtualbox (VirtualBox 6.1.34 )platform packages
+ * You need virtualbox to use Ubuntu and  develop ROS projects for Windows. 
  
  ## Algorithm
  
