@@ -9,12 +9,12 @@ Robot Operating System (ROS or ros) is an open-source robotics middleware suite.
 1.	ROS 1
 2.	ROS 2
 3.	ROS-Industrial
-
+Operating Systems ROS runs only on Unix servers. While ROS includes software for Ubuntu, Mac OS X, and Fedora, Gentoo, Arch Linux, and other Linux platforms
 
 If you are working on Ubuntu, it doesn’t matter. But what for Windows people? Here we go!
 
 To install software, you may have to satisfy the system requirements. To install ROS in windows, you need the following system requirements.
 
 You must have a Windows 10 64-bit device
-Also, it is recommended that you have at least 10GB of free space on your C:\ drive for installation and development.
+Also, it is recommended that you have at least 20GB of free space on your C:\ drive for installation and development.
 You need Visual Studio and Microsoft SDKs for Windows to develop ROS projects for Windows. You can download the Visual Studio (Visual Studio 2019) edition here. You can choose 1 of the 3 editions available. I’m suggesting Visual Studio Community as it is Free. You can use any edition but choose an updated app.
