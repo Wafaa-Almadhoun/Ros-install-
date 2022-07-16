@@ -90,10 +90,13 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
    
   ### 3- install ROS1 in Ubunto
    1- open Ubuntu
+   
    2- open terminal // command interface
    
-   ![3](https://user-images.githubusercontent.com/64277741/179372232-127eddb9-7918-45e4-bd59-868167370f6b.PNG)
-    Figure (3): the terminal interface 
    
+   ![3](https://user-images.githubusercontent.com/64277741/179372232-127eddb9-7918-45e4-bd59-868167370f6b.PNG)
+   
+    Figure (3): the terminal interface 
+    
    3-
   
