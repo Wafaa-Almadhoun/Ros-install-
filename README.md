@@ -52,6 +52,7 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
   5- open the Oracle VM VirtualBox 
   
   ![1](https://user-images.githubusercontent.com/64277741/179366616-adc5c727-3d54-40de-b673-f5240ac48b65.PNG)
+  
   Figure (1): the VirtualBox interface  
   
 ### 2- install Ubunto in virtualbox
@@ -81,11 +82,14 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
   12- then choose the Area and continue
   
   13- then Fill in the required , your name and etc then press continue
+  
   ![4](https://user-images.githubusercontent.com/64277741/179374749-b6ee0723-3c7f-4018-a371-0535f4c770b7.PNG)
+  
       Figure (2): the Ubuntu loading 
 
   
   14- then the Ubuntu will open!
+  
   ![5](https://user-images.githubusercontent.com/64277741/179374785-bf410d92-4642-4840-8672-b52cf6bfc4ea.PNG)
 
    Figure (3): the Ubunto interface  
