@@ -101,4 +101,21 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
    3- Enter the command to configure the machin to install the ROS on it 
    
          sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+         
+      copy and paste then press Enter , enter the password 
+         
+    4- Enter the command to open the keyserver in the machine
+         
+         sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+         
+      copy and paste then press Enter
+      
+    5- Enter the command to update the system 
+         
+         sudo apt-get update
+      
+     copy and paste then press Enter
+
+         
+
   
