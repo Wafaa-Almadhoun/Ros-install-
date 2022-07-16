@@ -56,20 +56,37 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
   Figure (1): the VirtualBox interface  
   
 ### 2- install Ubunto in virtualbox
-   1- download Ubuntu 16.04.7 LTS (Xenial Xerus)  [here](https://releases.ubuntu.com/16.04/) 
+
+   1- download Ubuntu 16.04.7 LTS (Xenial Xerus)  [here](https://releases.ubuntu.com/16.04/)
+   
    2- choose 64-bit PC (AMD64) desktop image and download 
+   
    3- open the Oracle VM VirtualBox
+   
    4- press New button to create virtual machine 
+   
    5- enter the Name then press Next 
+   
    6- memory size,Move the arrow to the end of the green line then press Next
+   
    7- then you don't need to change any options just next>next>next>create
+   
    8- Now you have a new virtual machine 
+   
    9- open it and press start button 
+   
   10- press file icone then press add then choose the file of ubuntu-16.04.7 you downloaded befor , then press start 
+  
   11- then choose install Ubunto then continue>continue
+  
   12- then choose the Area and continue
+  
   13- then Fill in the required your name and etc then press continue
+  
   14- then the Ubuntu will open!
+  
  ![2](https://user-images.githubusercontent.com/64277741/179371667-b0c6f5f1-7ba7-45ec-b848-9d42226ff608.PNG)
+ 
    Figure (2): the Ubunto interface  
+   
   
