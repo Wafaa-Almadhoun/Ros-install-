@@ -153,11 +153,30 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
                  source ~/.zshrc
     
     
-    Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces,
-    there are various tools and requirements that are distributed separately. For example, rosinstall is a frequently used command-line
-    tool that enables you to easily download many source trees for ROS packages with one command
+   Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces,
+   there are various tools and requirements that are distributed separately. For example, rosinstall is a frequently used command-line
+   tool that enables you to easily download many source trees for ROS packages with one command 
+   
+   9- Enter the command to install this tool and other dependencies for building ROS packages , then run
     
+                sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
     
+   10- Enter the command to initialize rosdep , then run
+                
+                sudo apt install python3-rosdep
+                
+                sudo rosdep init 
+                
+                rosdep update 
+                
+    11- Enter the command to check ros installation , then run    
+                
+                roscore
+                
+              ![7](https://user-images.githubusercontent.com/64277741/179383788-851b4113-a0bc-4bc3-ac20-fcaab57e15e6.PNG)
+            Figure (5): check ros installation
+                
+                
 
          
 
