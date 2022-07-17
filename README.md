@@ -96,61 +96,61 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
    
   ### 3- install ROS1 in Ubunto
    
-   1- open Ubuntu
+  1- open Ubuntu
    
      first you have to open ros wiki in ubuntu with any browser [here](http://wiki.ros.org/noetic/Installation/Ubuntu)
    
-   2- open terminal // command interface
+  2- open terminal // command interface
    
    ![6](https://user-images.githubusercontent.com/64277741/179374796-6e1bde79-87a5-4266-b8ed-51f063b7c747.PNG)
 
     Figure (4): the terminal interface 
     
-  3- Enter the command to configure the machin to install the ROS on it ,copy and paste then press Enter , enter the password 
+ 3- Enter the command to configure the machin to install the ROS on it ,copy and paste then press Enter , enter the password 
   
    
          sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
          
     
          
-   4- Enter the command to open the keyserver in the machine ,copy and paste then press Enter
+  4- Enter the command to open the keyserver in the machine ,copy and paste then press Enter
          
           sudo apt install curl # if you haven't already installed curl
             curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
             
       
-   5- Enter the command to installation, copy and paste then press Enter
+  5- Enter the command to installation, copy and paste then press Enter
          
           sudo apt update
           
-   6- Enter the command to install noetic desktop full : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages  , then run
+  6- Enter the command to install noetic desktop full : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages  , then run
    
           sudo apt install ros-noetic-desktop-full
           
-   7- Enter the command to install packages :There are even more packages available in ROS. 
+  7- Enter the command to install packages :There are even more packages available in ROS. 
       You can always install a specific package directly.:
           
-          sudo apt install ros-noetic-PACKAGE
+                 sudo apt install ros-noetic-PACKAGE
           
-          e.g.
+    e.g.
           
-          sudo apt install ros-noetic-slam-gmapping
+                 sudo apt install ros-noetic-slam-gmapping
           
-    8- Enter the command to environment setup , then run   
+   8- Enter the command to environment setup , then run   
          
-          source /opt/ros/noetic/setup.bash
+                 source /opt/ros/noetic/setup.bash
        
     It can be convenient to automatically source this script every time a new shell is launched. These commands will do that for you.
         
     Bash
     
-          echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-          source ~/.bashrc
+                 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+                 source ~/.bashrc
         
     zsh
     
-         echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
-         source ~/.zshrc
+                 echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
+                 source ~/.zshrc
     
     
     
