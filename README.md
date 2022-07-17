@@ -95,7 +95,10 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
    Figure (3): the Ubunto interface  
    
   ### 3- install ROS1 in Ubunto
+   
    1- open Ubuntu
+   
+     first you have to open ros wiki in ubuntu with any browser [here](http://wiki.ros.org/noetic/Installation/Ubuntu)
    
    2- open terminal // command interface
    
@@ -112,14 +115,32 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
          
    4- Enter the command to open the keyserver in the machine ,copy and paste then press Enter
          
-          sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-         
-    
+          sudo apt install curl # if you haven't already installed curl
+            curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+            
       
-   5- Enter the command to update the system , copy and paste then press Enter
+   5- Enter the command to installation, copy and paste then press Enter
          
-          sudo apt-get update
+          sudo apt update
+          
+   6- Enter the command to install noetic desktop full : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages  , then run
+   
+          sudo apt install ros-noetic-desktop-full
+          
+   6- Enter the command to install noetic desktop full : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages  , then run   
+     the desktop-full package contains the following packages/metapackages:
+       
+     desktop
+     
+     perception
+     
+     simulators
+     
+     urdf_sim_tutorial
       
+      
+          sudo apt install ros-melodic-desktop-full 
+          
     
 
          
