@@ -174,7 +174,7 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
                 roscore
                
                
-     ![7](https://user-images.githubusercontent.com/64277741/179383788-851b4113-a0bc-4bc3-ac20-fcaab57e15e6.PNG)
+  ![7](https://user-images.githubusercontent.com/64277741/179383788-851b4113-a0bc-4bc3-ac20-fcaab57e15e6.PNG)
      
          Figure (5): check ros installation
                 
