@@ -153,12 +153,8 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
                  source ~/.zshrc
     
     
-    Up to now you have installed what you need to run the core ROS packages. 
-    
-    To create and manage your own ROS workspaces, there are various tools and requirements
-    
-    that are distributed separately. For example, rosinstall is a frequently used command-line
-    
+    Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces,
+    there are various tools and requirements that are distributed separately. For example, rosinstall is a frequently used command-line
     tool that enables you to easily download many source trees for ROS packages with one command
     
     
