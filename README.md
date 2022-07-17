@@ -127,9 +127,33 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
    
           sudo apt install ros-noetic-desktop-full
           
-   6- Enter the command to install noetic desktop full : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages  , then run   
-     the desktop-full package contains the following packages/metapackages:
+   7- Enter the command to install packages :There are even more packages available in ROS. 
+      You can always install a specific package directly.:
+          
+          sudo apt install ros-noetic-PACKAGE
+          
+          e.g.
+          
+          sudo apt install ros-noetic-slam-gmapping
+          
+    8- Enter the command to environment setup , then run   
+         
+          source /opt/ros/noetic/setup.bash
        
+    It can be convenient to automatically source this script every time a new shell is launched. These commands will do that for you.
+        
+    Bash
+    
+          echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+          source ~/.bashrc
+        
+    zsh
+    
+         echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
+         source ~/.zshrc
+    
+    
+    
      desktop
      
      perception
