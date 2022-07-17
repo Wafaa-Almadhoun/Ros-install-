@@ -140,14 +140,14 @@ Also, it is recommended that you have at least 20GB of free space on your C:\ dr
          
                  source /opt/ros/noetic/setup.bash
        
-    It can be convenient to automatically source this script every time a new shell is launched. These commands will do that for you.
+   It can be convenient to automatically source this script every time a new shell is launched. These commands will do that for you.
         
-    Bash
+   Bash
     
                  echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
                  source ~/.bashrc
         
-    zsh
+   zsh
     
                  echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
                  source ~/.zshrc
